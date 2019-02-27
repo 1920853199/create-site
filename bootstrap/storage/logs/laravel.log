@@ -1,0 +1,72 @@
+[2019-01-26 22:32:34] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at /home/wwwroot/cms/cms/vendor/laravel/framework/src/Illuminate/Log/LogManager.php:167)
+[stacktrace]
+#0 /home/wwwroot/cms/cms/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(101): Illuminate\\Log\\LogManager->resolve(NULL)
+#1 /home/wwwroot/cms/cms/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(89): Illuminate\\Log\\LogManager->get(NULL)
+#2 /home/wwwroot/cms/cms/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(493): Illuminate\\Log\\LogManager->driver()
+#3 /home/wwwroot/cms/cms/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(114): Illuminate\\Log\\LogManager->error('The \"\" director...', Array)
+#4 /home/wwwroot/cms/cms/app/Exceptions/Handler.php(37): Illuminate\\Foundation\\Exceptions\\Handler->report(Object(InvalidArgumentException))
+#5 /home/wwwroot/cms/cms/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(314): App\\Exceptions\\Handler->report(Object(InvalidArgumentException))
+#6 /home/wwwroot/cms/cms/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(118): Illuminate\\Foundation\\Http\\Kernel->reportException(Object(InvalidArgumentException))
+#7 /home/wwwroot/cms/cms/public/index.php(56): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#8 {main}
+"} 
+[2019-01-26 22:32:34] laravel.ERROR: The "" directory does not exist. {"exception":"[object] (InvalidArgumentException(code: 0): The \"\" directory does not exist. at /home/wwwroot/cms/cms/vendor/symfony/finder/Finder.php:581)
+[stacktrace]
+#0 /home/wwwroot/cms/cms/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(88): Symfony\\Component\\Finder\\Finder->in(false)
+#1 /home/wwwroot/cms/cms/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(65): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->getConfigurationFiles(Object(Illuminate\\Foundation\\Application))
+#2 /home/wwwroot/cms/cms/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles(Object(Illuminate\\Foundation\\Application), Object(Illuminate\\Config\\Repository))
+#3 /home/wwwroot/cms/cms/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(204): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap(Object(Illuminate\\Foundation\\Application))
+#4 /home/wwwroot/cms/cms/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(162): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#5 /home/wwwroot/cms/cms/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(146): Illuminate\\Foundation\\Http\\Kernel->bootstrap()
+#6 /home/wwwroot/cms/cms/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(116): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#7 /home/wwwroot/cms/cms/public/index.php(56): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#8 {main}
+"} 
+[2019-01-26 22:32:36] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at /home/wwwroot/cms/cms/vendor/laravel/framework/src/Illuminate/Log/LogManager.php:167)
+[stacktrace]
+#0 /home/wwwroot/cms/cms/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(101): Illuminate\\Log\\LogManager->resolve(NULL)
+#1 /home/wwwroot/cms/cms/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(89): Illuminate\\Log\\LogManager->get(NULL)
+#2 /home/wwwroot/cms/cms/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(493): Illuminate\\Log\\LogManager->driver()
+#3 /home/wwwroot/cms/cms/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(114): Illuminate\\Log\\LogManager->error('The \"\" director...', Array)
+#4 /home/wwwroot/cms/cms/app/Exceptions/Handler.php(37): Illuminate\\Foundation\\Exceptions\\Handler->report(Object(InvalidArgumentException))
+#5 /home/wwwroot/cms/cms/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(314): App\\Exceptions\\Handler->report(Object(InvalidArgumentException))
+#6 /home/wwwroot/cms/cms/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(118): Illuminate\\Foundation\\Http\\Kernel->reportException(Object(InvalidArgumentException))
+#7 /home/wwwroot/cms/cms/public/index.php(56): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#8 {main}
+"} 
+[2019-01-26 22:32:36] laravel.ERROR: The "" directory does not exist. {"exception":"[object] (InvalidArgumentException(code: 0): The \"\" directory does not exist. at /home/wwwroot/cms/cms/vendor/symfony/finder/Finder.php:581)
+[stacktrace]
+#0 /home/wwwroot/cms/cms/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(88): Symfony\\Component\\Finder\\Finder->in(false)
+#1 /home/wwwroot/cms/cms/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(65): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->getConfigurationFiles(Object(Illuminate\\Foundation\\Application))
+#2 /home/wwwroot/cms/cms/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles(Object(Illuminate\\Foundation\\Application), Object(Illuminate\\Config\\Repository))
+#3 /home/wwwroot/cms/cms/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(204): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap(Object(Illuminate\\Foundation\\Application))
+#4 /home/wwwroot/cms/cms/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(162): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#5 /home/wwwroot/cms/cms/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(146): Illuminate\\Foundation\\Http\\Kernel->bootstrap()
+#6 /home/wwwroot/cms/cms/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(116): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#7 /home/wwwroot/cms/cms/public/index.php(56): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#8 {main}
+"} 
+[2019-01-26 22:32:43] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at /home/wwwroot/cms/cms/vendor/laravel/framework/src/Illuminate/Log/LogManager.php:167)
+[stacktrace]
+#0 /home/wwwroot/cms/cms/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(101): Illuminate\\Log\\LogManager->resolve(NULL)
+#1 /home/wwwroot/cms/cms/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(89): Illuminate\\Log\\LogManager->get(NULL)
+#2 /home/wwwroot/cms/cms/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(493): Illuminate\\Log\\LogManager->driver()
+#3 /home/wwwroot/cms/cms/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(114): Illuminate\\Log\\LogManager->error('The \"\" director...', Array)
+#4 /home/wwwroot/cms/cms/app/Exceptions/Handler.php(37): Illuminate\\Foundation\\Exceptions\\Handler->report(Object(InvalidArgumentException))
+#5 /home/wwwroot/cms/cms/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(314): App\\Exceptions\\Handler->report(Object(InvalidArgumentException))
+#6 /home/wwwroot/cms/cms/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(118): Illuminate\\Foundation\\Http\\Kernel->reportException(Object(InvalidArgumentException))
+#7 /home/wwwroot/cms/cms/public/index.php(56): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#8 {main}
+"} 
+[2019-01-26 22:32:43] laravel.ERROR: The "" directory does not exist. {"exception":"[object] (InvalidArgumentException(code: 0): The \"\" directory does not exist. at /home/wwwroot/cms/cms/vendor/symfony/finder/Finder.php:581)
+[stacktrace]
+#0 /home/wwwroot/cms/cms/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(88): Symfony\\Component\\Finder\\Finder->in(false)
+#1 /home/wwwroot/cms/cms/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(65): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->getConfigurationFiles(Object(Illuminate\\Foundation\\Application))
+#2 /home/wwwroot/cms/cms/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles(Object(Illuminate\\Foundation\\Application), Object(Illuminate\\Config\\Repository))
+#3 /home/wwwroot/cms/cms/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(204): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap(Object(Illuminate\\Foundation\\Application))
+#4 /home/wwwroot/cms/cms/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(162): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#5 /home/wwwroot/cms/cms/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(146): Illuminate\\Foundation\\Http\\Kernel->bootstrap()
+#6 /home/wwwroot/cms/cms/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(116): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#7 /home/wwwroot/cms/cms/public/index.php(56): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#8 {main}
+"} 
